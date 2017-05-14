@@ -1,0 +1,39 @@
+comment {
+	color: #546e7a;
+	font-style: italic;
+}
+
+comment:before {
+	content: "//";
+}
+
+string {
+	color: #C3E88D;
+}
+
+string:before, string:after {
+	content: "'";
+	color: #89DDFF;
+}
+
+number {
+	color: #F77669;
+}
+
+variable:before {
+	content: '$';
+	color: #89DDFF;
+}
+
+keyword {
+	color: #89DDFF;
+}
+
+purple {
+	color: #C792EA;
+	font-style: italic;
+}
+
+blue {
+	color: #82aaff;
+}

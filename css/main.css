@@ -1,0 +1,88 @@
+body {
+	background-color: #1e272c;
+	font-family: 'Consolas';
+	/*color: #588787;  store to later*/
+	color: #eeffff;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-column {
+	background-color: #263238;
+	margin: auto;
+	max-width: 500px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+
+.logo {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.logo h1 {
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.logo h2 {
+	font-weight: 200;
+}
+
+.lang, .code {
+	max-width: 295px;
+}
+
+.lang {
+	text-align: right;
+	margin-bottom: 4px;
+	padding-right: 10px;
+	color: #82aaff;
+}
+
+.code {
+	/*min-height: 293px;*/
+	border: 1px solid #588787;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #588787;
+	text-align: left;
+	padding: 5px;
+}
+
+line {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	position: relative;
+}
+
+gitter {
+	/*background-color: pink;*/
+	flex-shrink: 0;
+	position: absolute;
+	width: 30px;
+	height: 100%;
+	border-right: 1px dotted #36474e;
+	text-align: right;
+	padding-right: 15px;
+	color: #36474e;
+}
+
+code {
+	margin-left: 55px;
+}
+
+tab{
+	margin-left: 3ch;
+}
